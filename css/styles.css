@@ -1,0 +1,212 @@
+
+body{
+    font-family: 'Montserrat', 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* container-fluid */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* ......sections ......*/
+
+/* colored section */
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* white section */
+.white-section {
+    background-color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+/* selector Specificity in css styling */
+#title .container-fluid{
+    padding: 3% 15%;
+    text-align: left;
+}
+
+
+/* Title Image */
+.title-image{
+    width: 64%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.title-image-container {
+    position: relative;
+}
+
+/* features */
+
+#features {
+    /* margin: 5rem auto 0; */
+    position: relative;
+    /* z-index: 3; */
+}
+
+.feature-title {
+    font-size: 1.45rem;
+}
+
+.features-icon{
+    color: #ef8172;
+    /* since it's a font awesome icon, you can also use class attribute fa-4x to indicate the size of the icon */
+    /* font-size: 2rem; */
+    margin-bottom: 10px;
+}
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+
+.features-container{
+    /* padding: 0 3.5rem; */
+    padding: 0 2.1rem;
+    margin-bottom: 3rem;
+}
+
+
+/* Testimonials section */
+
+#testimonials{
+    background-color: #ef8172;  
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+}
+
+/* section heading */
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* cta section */
+
+.cta-text-heading {
+    font-size: 3.4rem; 
+    line-height: 1.5;
+}
+
+/* footer section */
+.footer-icon {
+    font-size: 1.2rem;
+    margin: 20px 10px;
+}
+
+
+/* Media query */
+
+@media (max-width: 1028px) {
+    .title-image{
+    width: 64%;
+    transform:rotate(0deg);
+    position: static;
+}
+
+#title {
+    text-align: center;
+}
+
+h1 {
+    
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 2.3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+}
